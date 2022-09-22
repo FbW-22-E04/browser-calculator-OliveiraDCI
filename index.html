@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      p {
+        display: inline-block;
+      }
+      div {
+        margin: 0.5rem;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">Calculator</h1>
+    <!-- Addition -->
+
+    <div>
+      <input id="a1" type="number" placeholder="type a number" />
+      <p>+</p>
+
+      <input id="a2" type="number" placeholder="type a number" />
+      <p>=</p>
+      <input id="a3" value="0" disabled />
+    </div>
+
+    <!-- Subtraction -->
+
+    <div>
+      <input id="s1" type="number" placeholder="type a number" />
+      <p>-</p>
+      <input id="s2" type="number" placeholder="type a number" />
+      <p>=</p>
+      <input id="s3" value="0" disabled />
+    </div>
+
+    <!-- Multiplication -->
+
+    <div>
+      <input id="m1" type="number" placeholder="type a number" />
+      <p>*</p>
+      <input id="m2" type="number" placeholder="type a number" />
+      <p>=</p>
+      <input id="m3" value="0" disabled />
+    </div>
+
+    <!-- Division -->
+
+    <div>
+      <input id="d1" type="number" placeholder="type a number" />
+      <p>/</p>
+      <input id="d2" type="number" placeholder="type a number" />
+      <p>=</p>
+      <input id="d3" value="0" disabled />
+    </div>
+
+    <!-- Modulo -->
+
+    <div>
+      <input id="mod1" type="number" placeholder="type a number" />
+      <p>%</p>
+      <input id="mod2" type="number" placeholder="type a number" />
+      <p>=</p>
+      <input id="mod3" value="0" disabled />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
